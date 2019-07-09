@@ -220,7 +220,7 @@
    /* for GCC only on supported platforms */
    typedef unsigned long long fp_digit;   /* 64bit, 128 uses mode(TI) below */
    #define SIZEOF_FP_DIGIT 8
-   typedef unsigned long      fp_word __attribute__ ((mode(TI)));
+   typedef unsigned long      fp_word;
 #else
 
    #ifndef NO_TFM_64BIT
